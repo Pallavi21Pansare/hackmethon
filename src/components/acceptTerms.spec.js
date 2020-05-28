@@ -2,5 +2,10 @@
 import ReactDOM from 'react-dom';
 import { shallow, mount } from 'enzyme'
 import AcceptTerms from '../components/acceptTerms';
+it('insiders', () => {     
+         expect(
+          true
+        ).toBe(true);
+});
 
 
